@@ -40,6 +40,7 @@ const Login = () => {
                     <div className="mb-4">
                         <input 
                             type="text" 
+                            name="username" // Agregado
                             placeholder="Username" 
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
@@ -50,6 +51,7 @@ const Login = () => {
                     <div className="mb-4">
                         <input 
                             type="password" 
+                            name="password" // Agregado
                             placeholder="Password" 
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
