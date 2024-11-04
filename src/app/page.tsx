@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-100 text-gray-900">
       <header className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2">¡Bienvenido!</h1>
+        <h1 className="text-4xl font-bold mb-2">¡Bienvenido! :3</h1>
         <p className="text-lg text-gray-600">Has iniciado sesión correctamente en tu cuenta.</p>
       </header>
       <div className="flex flex-col space-y-4">
